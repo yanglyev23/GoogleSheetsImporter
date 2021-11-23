@@ -1,0 +1,5 @@
+.field { clear:both; text-align:right; line-height:25px; }
+label { float:left; padding-right:10px; }
+.main { float:left }
+form { position:fixed; top:40%; left:40%; width:20%; }
+.btn { clear:both; text-align:center; line-height:25px; }

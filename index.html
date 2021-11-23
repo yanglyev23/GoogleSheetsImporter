@@ -1,0 +1,29 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/ajax.js"></script>
+</head>
+<form method="post" id="ajax_form" action="" >
+    <div class="main">
+        <div class="result" id="result">
+        </div>
+        <div class="field">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email"/>
+        </div>
+        <div class="field">
+            <label for="phone">Телефон</label>
+            <input type="text" id="phone" name="phone" />
+        </div>
+        <div class="field">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div class="btn">
+            <input type="submit" id="btn" />
+        </div>
+    </div>
+</form>
+<script src="js/checkPhone.js"></script>
